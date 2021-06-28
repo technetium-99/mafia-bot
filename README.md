@@ -15,14 +15,14 @@ Marks the setup set as default
 
 Changes the default setup used in all commands that accept a setup name and version argument
 
-* `name:` setup name
+* `name` setup name
 * `version` setup version (a decimal number)
 
 `!setup` `[<name> <version>]`
 
 Displays the roles contained in a setup, grouped by alignment and ordered by role type - Investigative, Protective, Communicative - than alphabetically
 
-* `name:` *optional* setup name, uses name of the default setup if omitted
+* `name` *optional* setup name, uses name of the default setup if omitted
 * `version` *optional* setup version (a decimal number), uses version of the default setup if omitted
 * **NOTE:** `name` and `version` is either both omitted or both specified
 
@@ -30,7 +30,7 @@ Displays the roles contained in a setup, grouped by alignment and ordered by rol
 
 Fetches the documentation for a setup
 
-* `name:` *optional* setup name, uses name of the default setup if omitted
+* `name` *optional* setup name, uses name of the default setup if omitted
 * `version` *optional* setup version (a decimal number), uses version of the default setup if omitted
 * **NOTE:** `name` and `version` is either both omitted or both specified
 
@@ -38,7 +38,7 @@ Fetches the documentation for a setup
 
 Displays information about of role, including its alignment, type, point value, description, actions, and results (for each action if said action has them)
 
-* `name:` role name (not case sensitive)
-* `setup-name:` *optional* setup name, uses name of the default setup if omitted
+* `name` role name (not case sensitive)
+* `setup-name` *optional* setup name, uses name of the default setup if omitted
 * `setup-version` *optional* setup version (a decimal number), uses version of the default setup if omitted
 * **NOTE:** `name` and `version` is either both omitted or both specified
